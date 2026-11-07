@@ -1,0 +1,8 @@
+bibentry(
+  bibtype = "Unpublished",
+  title = "Optimal radial weighting for robust mutual fund selection",
+  author = person("Long", "Feng"),
+  year = "2026",
+  note = "Working paper. R package radialFundSelect.",
+  url = "https://github.com/flnankai/radialFundSelect"
+)

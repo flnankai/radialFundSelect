@@ -1,0 +1,19 @@
+Package: radialFundSelect
+Type: Package
+Title: Radially Weighted Selection of Mutual Funds with Positive Alpha
+Version: 0.3.0
+Authors@R: person("Long", "Feng", email = "flnankai@nankai.edu.cn",
+                  role = c("aut", "cre"))
+Description: Tests for positive fund alphas in observed-factor models using
+    smoothed inverse-norm, spatial-sign, and least-squares estimators with
+    Benjamini-Hochberg selection. Provides fresh Monte Carlo simulation,
+    paired smoothing comparisons, rolling investment evaluation, and figure
+    generation for 'Optimal radial weighting for robust mutual fund selection'.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: parallel, stats, codetools, graphics, grDevices, utils
+Suggests: R.matlab
+URL: https://github.com/flnankai/radialFundSelect
+BugReports: https://github.com/flnankai/radialFundSelect/issues
+NeedsCompilation: no
